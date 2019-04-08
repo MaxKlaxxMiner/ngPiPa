@@ -8,5 +8,10 @@ namespace ngPiPa
     {
       InitializeComponent();
     }
+
+    private void buttonColor_Select_Click(object sender, System.EventArgs e)
+    {
+      pictureBoxSelectedColor.BackColor = ((Button)sender).BackColor;
+    }
   }
 }
