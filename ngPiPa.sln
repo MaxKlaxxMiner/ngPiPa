@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPiPa", "ngPiPa.csproj", "{066FE11B-0F8C-4F07-AA33-59BF67A12C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ngPiPaLib", "ngPiPaLib\ngPiPaLib.csproj", "{4A368C33-C5CE-4C58-9B90-A6394AF3149B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066FE11B-0F8C-4F07-AA33-59BF67A12C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066FE11B-0F8C-4F07-AA33-59BF67A12C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066FE11B-0F8C-4F07-AA33-59BF67A12C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066FE11B-0F8C-4F07-AA33-59BF67A12C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A368C33-C5CE-4C58-9B90-A6394AF3149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A368C33-C5CE-4C58-9B90-A6394AF3149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A368C33-C5CE-4C58-9B90-A6394AF3149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A368C33-C5CE-4C58-9B90-A6394AF3149B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
