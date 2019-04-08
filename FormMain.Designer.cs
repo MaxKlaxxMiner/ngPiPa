@@ -86,6 +86,7 @@
       // splitToolSelector.Panel2
       // 
       this.splitToolSelector.Panel2.BackColor = System.Drawing.Color.Silver;
+      this.splitToolSelector.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitToolSelector_Panel2_Paint);
       this.splitToolSelector.Size = new System.Drawing.Size(1027, 459);
       this.splitToolSelector.SplitterDistance = 91;
       this.splitToolSelector.TabIndex = 0;
@@ -180,8 +181,9 @@
       this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.ClientSize = new System.Drawing.Size(1027, 519);
       this.Controls.Add(this.splitColorSelector);
+      this.MinimumSize = new System.Drawing.Size(800, 450);
       this.Name = "FormMain";
-      this.Text = "ngPiPa v0.002";
+      this.Text = "ngPiPa v0.003";
       this.splitColorSelector.Panel1.ResumeLayout(false);
       this.splitColorSelector.Panel2.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.splitColorSelector)).EndInit();
